@@ -59,6 +59,7 @@ public class Server {
 						out.writeUTF("Chín");
 						break;
 					default :
+						out.writeUTF("Không phải số nguyên");
 						break;
 					}
 				}
